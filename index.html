@@ -1,6 +1,9 @@
 ---
-title: OSDev4Arab
+title: KarimAllah Ahmed - Random Thoughts
 ---
-{% include excerpts.html %}
 
-
+{% for post in site.posts %}
+  <a href="{{ site.baseurl }}{post.url}}">
+    <h4>{{ post.title }}</h4>
+  </a>
+{% endfor %}

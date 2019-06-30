@@ -1,19 +1,17 @@
-name: OSDev4Arab
-author: OSDev4Arab
-domain: osdev4arab.github.io
+name: KarimAllah Ahmed - Random Thoughts
+author: KarimAllah Ahmed
+domain: karimallah.github.io
 baseurl:
-description: نحو مجتمع عربي عن تطوير نظم التشغيل
-github: http://www.github.com/osdev4arab/osdev4arab
-twitter: http://www.twitter.com/
-facebook: https://www.facebook.com/groups/osdev4arab/
-linkedin: http://www.linkedin.com
-trello: https://trello.com/b/pslUMpQW/osdev4arab-website
-udemy: https://www.udemy.com/u/osdev4arab/
+description:
+github: http://www.github.com/KarimAllah/karimallah.github.io
+twitter: http://www.twitter.com/KarimAllah
+facebook: https://www.facebook.com/karim.allah.ahmed
+linkedin: https://www.linkedin.com/in/karimallah/
 logo: /images/logo-hq.png
 icon: /images/mstile-310x310.png
-email: osdev4arab@gmail.com
+email: karim.allah.ahmed@gmail.com
 location: $HOME
-disqus: osdev4arab
+disqus: karimallahahmed
 permalink: /:categories/:title.html
 ##Make sure to edit the above fields, especially for disqus.
 
@@ -36,13 +34,3 @@ defaults:
       type: "posts"
    values:
       layout: "post"
-  -
-   scope:
-      path: "osdev_intro_series"
-   values:
-      category: "osdev_intro_series"
-  -
-   scope:
-      path: "assembly_intro_series"
-   values:
-      category: "assembly_intro_series"
